@@ -5,11 +5,18 @@ const Login = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('');
 
+    const userName = localStorage.getItem('email')
+    ?  localStorage.getItem('email') : 'admin@admin.com'
+    const userPassword = localStorage.getItem('password') ? 
+    localStorage.getItem('password') : 'admin'
+
     const handleSubmit = (event) => {
         event.preventDefault();
-        setEmail('')
-        setPassword('')
-        alert("welcome again")
+        if(email === userName && password === userPassword )
+        alert('login sucessful')
+        // setEmail('')
+        // setPassword('')
+        // alert("welcome again")
     }
 
     return (
