@@ -1,0 +1,42 @@
+.im{
+    position: relative;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 70vh;
+    border-style: dotted;
+    background-color: blue;
+    margin-top: 102px;
+}
+.para{
+    display: flex;
+    margin-left: 2vh;
+}
+p{
+    margin: 2vh;
+}
+.outer{
+    padding: 30px;
+    position: absolute;
+}
+.box{
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    padding-left: 20vh;
+    position: absolute;
+}
+.dv{
+    position: relative;
+    background-color: rgba(11, 53, 194, 0.486);
+    border: 1px solid black;
+    padding: 3vh;
+    height: 30vh;
+    width: 32vh;
+    margin-left: 1vh;
+    border-radius: 10px;
+    margin: 7px;
+    border-style: 2vh solid black;
+}
+span{
+    color: rgb(109, 139, 240);
+}

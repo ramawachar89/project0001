@@ -1,0 +1,44 @@
+body{
+    background: #0d6efd;
+    background: radial-gradient(
+      circle,
+      #e225079c 0%,
+      rgba(224, 224, 11, 0.526) 0%,
+      rgba(200, 14, 135, 0.718) 100%
+    );
+}
+.main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 481px;
+    height: 350px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    padding-left: 30px;
+
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   margin: 130px;
+   
+   
+}
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+}
+button{
+    margin-bottom: 50px;
+    margin-left: 22px;
+}
+    
+        
