@@ -1,0 +1,39 @@
+.Signup body{
+    background-color: aqua;
+  }
+  
+  .mainComponent {
+    background: rgb(228, 227, 237);
+      background: radial-gradient(
+        circle,
+        #0f0a9bbd 0%,
+        rgba(11, 29, 161, 0.545) 0%,
+        rgba(22, 3, 167, 0.718) 100%
+      );
+      
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 68vh;
+      max-width: 524px;
+      width: 83%;
+      margin: auto;
+        margin-top: auto;
+      margin-top: 50px;
+      border-radius: 25px;
+      padding: 98px;
+    } 
+    
+    .container > form {
+      width: 70%;
+      border: 1px solid #dfdfdf;
+      padding: 20px;
+      border-radius: 5px;
+      background: #fff;
+    }
+    pre {
+      width: 70%;
+      color: #fff;
+      font-size: larger;
+    }

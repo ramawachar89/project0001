@@ -5,14 +5,14 @@ import style from './aboutus.module.css';
 
 const About = () => (
   <>
-  {/* // <div className={Style.abt1}>
-  //   <h3>About us</h3>
-  //   <div className={Style.secDiv}>
-  //     <div>
+   <div className={style.abt1}>
+     <h3>About us</h3>
+    <div className={style.secDiv}>
+       <div>
         
-  //     </div>
-  //   </div>
-  // </div> */}
+      </div>
+    </div>
+  </div>
    <div className={style.outer}>
                 <div><h1>About Us</h1></div>
                 <div className={style.para}>
