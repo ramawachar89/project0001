@@ -1,0 +1,32 @@
+.about-text {
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    text-align: justify;
+
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Drake-photo {
+    height: auto;
+    max-width: 50%;
+    border-radius: 5%;
+    position: relative;
+    bottom: 7px;
+
+}
+
+@media (max-width: 600px) {
+    .about-container {
+        max-width: 100%;
+    }
+
+    .about-title {
+        font-size: 1.5em;
+    }
+
+    .about-text{
+        font-size:1em;
+    }
+}

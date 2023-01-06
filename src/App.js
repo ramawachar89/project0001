@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './component/Navbar/navbar';
 import React from "react";
+import 'react-toastify/dist/ReactToastify.css';
 import {
   BrowserRouter as Router,
   Switch,

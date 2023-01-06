@@ -1,0 +1,17 @@
+.HomeImgDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.HomeImgClass {
+    z-index: 9;
+    position: relative;
+    top: 100px;
+    height: 400px;
+}
+
+@media (max-width: 600px) {
+    .HomeImgClass {
+        height: auto;
+        width:100%;}
+}
