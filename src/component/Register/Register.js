@@ -5,6 +5,8 @@ import "react-toastify/dist/ReactToastify.css";
 import './Register.css'
 import { Link } from "react-router-dom";
 
+
+
 function Register() {
   const [formValues, setFormValues] = useState({
     name: "",
