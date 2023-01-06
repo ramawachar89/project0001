@@ -14,6 +14,8 @@
     border-radius: 5%;
     position: relative;
     bottom: 7px;
+    display: flex;
+    left: 25vw;
 
 }
 
